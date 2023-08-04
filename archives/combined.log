@@ -1,0 +1,22 @@
+{"level":"info","message":"item add !","service":"user-service"}
+{"level":"info","message":"item macbookadd","service":"user-service"}
+{"level":"error","message":"item macbook add","service":"user-service"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send"}
+{"level":"info","message":"item product_today receive","service":"user-service","status":"receive"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:07:00:23"}
+{"level":"info","message":"item product_today receive","service":"user-service","status":"receive"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:10:01:36"}
+{"level":"info","message":"item product_today receive","service":"user-service","status":"receive"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:10:04:00"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:10:04:00"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:11:33:59"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:11:33:59"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:11:35:32"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:11:35:32"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:12:02:57"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:12:02:57"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:12:34:32"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:12:34:51"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:12:34:51"}
+{"level":"info","message":"item macbook add","service":"user-service","status":"send","timestamp":"2023/08/03:12:52:57"}
+{"level":"info","message":"item product_today","service":"user-service","status":"receive","timestamp":"2023/08/03:12:52:57"}

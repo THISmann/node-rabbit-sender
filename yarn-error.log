@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn global bin
+
+PATH: 
+  Unknown command: "bin"
+  
+  To see a list of supported npm commands, run:
+    npm help:/opt/homebrew/Cellar/dart/3.0.5/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/Cellar/dart/3.0.5/libexec/bin:Unknown command: bin To see a list of supported npm commands, run: npm help:/Users/fuhetienne/.yarn/bin:/Users/fuhetienne/anaconda3/bin:/Users/fuhetienne/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/local/bin:/opt/local/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/fuhetienne/Documents/Projects_vc/node-rabbit/package.json: Unexpected token } in JSON at position 214
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "sender",
+    "version": "1.0.0",
+    "description": "node sender with rabbit mq",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm start",
+      "start": ["nodemon sender.js", "nodemon receiver.js"],
+    },
+    "author": "etienne fuh",
+    "license": "ISC",
+    "dependencies": {
+      "amqp": "^0.2.7",
+      "amqplib": "^0.10.3",
+      "http": "^0.0.1-security"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
